@@ -1,0 +1,46 @@
+.gochi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  gap: 1rem;
+  color: white;
+  text-align: center;
+}
+.gochi h1 {
+  font-size: 2.8rem;
+}
+.gochi p {
+  font-size: 1.2rem;
+}
+.gochi p span a {
+  color: orange;
+}
+.gochi_connect {
+  padding: 14px 45px;
+  margin-top: 20px;
+  display: block !important;
+}
+@media screen and (max-width: 950px) {
+  .gochi {
+    padding: 0rem 2rem;
+  }
+  .gochi h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 493px) {
+  .gochi {
+    padding: 0rem 2rem;
+  }
+  .gochi h1 {
+    font-size: 1.6rem;
+  }
+  .gochi p {
+    font-size: 1rem;
+  }
+  .gochi_connect {
+    padding: 14px 30px;
+  }
+}
