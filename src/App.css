@@ -70,7 +70,12 @@
     opacity: 1;
   }
 }
-@media screen and (max-width: 1045px) {
+@media screen and (max-width: 1525px) {
+  .right {
+    max-width: 73%;
+  }
+}
+@media screen and (max-width: 1123px) {
   .right {
     flex: none;
     max-width: 100vw;

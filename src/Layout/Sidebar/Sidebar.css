@@ -36,13 +36,11 @@
   background-color: #37363b;
   padding-inline: 10px;
 }
-.active-link::after {
-  content: "<";
-  font-size: 1.6rem;
-  margin-left: 20px;
-}
 .nav-text i {
-  margin-right: 30px;
+  width: 3rem;
+}
+.nav-text i:last-child {
+  width: 2.7rem;
 }
 .mobile {
   display: none;
@@ -50,7 +48,12 @@
 .desktop {
   display: block;
 }
-@media screen and (max-width: 1045px) {
+@media screen and (max-width: 1525px) {
+  .sidebar {
+    max-width: 27%;
+  }
+}
+@media screen and (max-width: 1123px) {
   .mobile {
     display: block;
   }
@@ -92,5 +95,10 @@
 @media screen and (max-width: 467px) {
   .sidebar {
     max-width: 75%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .sidebar {
+    max-width: 85%;
   }
 }
