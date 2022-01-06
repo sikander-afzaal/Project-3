@@ -7,19 +7,19 @@ function Shop() {
       <div className="shop_left anim-left">
         <img src={logo} alt="" />
       </div>
-      <div className="shop_right anim-right">
-        <h1>ROGUE MARKETPLACE </h1>
-        <p>
+      <div className="shop_right">
+        <h1 className="anim-right">ROGUE MARKETPLACE </h1>
+        <p className="anim-right">
           Our online NFT marketplace will allow the sales and buying of rogue
           masks and Ingame utilities
         </p>
-        <p>
+        <p className="anim-right">
           As mass adoption from the non-crypto population stream in through the
           app anyone miss surplus masks can take bits start to raise the price
           of their Nfts to sell To people desperate to be 1 of the 100,000 only
           Underworld meta verse inhabitants
         </p>
-        <button className="join-tele">
+        <button className="join-tele fade-in">
           <i className="fab fa-telegram"></i>
           Join Our Telegram
         </button>
