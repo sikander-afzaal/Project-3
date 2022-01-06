@@ -88,6 +88,7 @@
 @media screen and (max-width: 1525px) {
   .right {
     width: 73%;
+    flex: none;
   }
 }
 @media screen and (max-width: 1317px) {

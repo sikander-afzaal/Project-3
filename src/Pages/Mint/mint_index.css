@@ -146,6 +146,10 @@
     text-align: center;
     width: 90%;
   }
+  .item_div img {
+    max-width: 80%;
+    object-fit: contain;
+  }
 }
 @media screen and (max-width: 473px) {
   .left_mint {
