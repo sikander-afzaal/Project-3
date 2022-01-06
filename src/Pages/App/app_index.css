@@ -18,10 +18,6 @@
   transform: translate(-6rem);
   opacity: 0;
 }
-.app_right {
-  transform: translate(6rem);
-  opacity: 0;
-}
 .app_left img:first-child {
   max-width: 100%;
   object-fit: contain;
@@ -44,11 +40,13 @@
 }
 .app_right h1 {
   font-size: 3rem;
+  opacity: 0;
 }
 .app_right p {
   font-size: 1.2rem;
   line-height: 1.5;
   width: 80%;
+  opacity: 0;
 }
 .app_img {
   max-width: 50%;
