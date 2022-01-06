@@ -4,10 +4,10 @@ import logo from "../../Assets/question-logo.png";
 function Shop() {
   return (
     <div className="shop">
-      <div className="shop_left">
+      <div className="shop_left anim-left">
         <img src={logo} alt="" />
       </div>
-      <div className="shop_right">
+      <div className="shop_right anim-right">
         <h1>ROGUE MARKETPLACE </h1>
         <p>
           Our online NFT marketplace will allow the sales and buying of rogue

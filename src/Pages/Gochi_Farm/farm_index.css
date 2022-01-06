@@ -15,6 +15,8 @@
   justify-content: center;
   align-items: flex-start;
   gap: 20px;
+  transform: translateX(-6rem);
+  opacity: 0;
 }
 .farm_left h1 {
   color: white;
@@ -50,6 +52,11 @@
 .farm-wallet {
   border-radius: 30px;
 }
+
+.farm_right {
+  transform: translateX(6rem);
+  opacity: 0;
+}
 .farm_right img {
   max-width: 100%;
   object-fit: contain;
@@ -63,16 +70,12 @@
   .farm_left {
     align-items: center;
   }
+  .farm_right,
+  .farm_left {
+    flex: none;
+  }
 }
 @media screen and (max-width: 553px) {
-  .farm {
-    flex-direction: column;
-    text-align: center;
-    padding-top: 3rem;
-  }
-  .farm_left {
-    align-items: center;
-  }
   .farm_left h1 {
     font-size: 2rem;
   }

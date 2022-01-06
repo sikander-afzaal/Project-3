@@ -11,6 +11,14 @@
 .dashboard_right {
   flex: 0.5;
 }
+.dashboard_right {
+  transform: translate(6rem);
+  opacity: 0;
+}
+.dashboard_left {
+  transform: translate(-6rem);
+  opacity: 0;
+}
 .dashboard h1 {
   color: #ff0000;
   -webkit-background-clip: text;
@@ -38,6 +46,10 @@
     flex-direction: column;
     padding-top: 3rem;
     padding-inline: 3.5rem;
+  }
+  .dashboard_left,
+  .dashboard_right {
+    flex: none;
   }
   .dashboard_text {
     font-size: 1.1rem;

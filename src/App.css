@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 .App {
   display: flex;
@@ -16,6 +17,58 @@
   max-width: 80%;
   margin-left: auto;
   min-height: 100vh;
+}
+.anim-left {
+  animation: left 0.25s ease-in 0.1s forwards;
+}
+.anim-right {
+  animation: right 0.25s ease-in 0.1s forwards;
+}
+.anim-up {
+  animation: up 0.25s ease-in 0.1s forwards;
+}
+.anim-down {
+  animation: down 0.25s ease-in 0.1s forwards;
+}
+@keyframes left {
+  from {
+    transform: translateX(-6rem);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0rem);
+    opacity: 1;
+  }
+}
+@keyframes right {
+  from {
+    transform: translateX(6rem);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0rem);
+    opacity: 1;
+  }
+}
+@keyframes up {
+  from {
+    transform: translateY(-6rem);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0rem);
+    opacity: 1;
+  }
+}
+@keyframes down {
+  from {
+    transform: translateY(6rem);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0rem);
+    opacity: 1;
+  }
 }
 @media screen and (max-width: 1045px) {
   .right {

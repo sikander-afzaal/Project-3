@@ -31,7 +31,7 @@ function Mint() {
   };
   return (
     <div className="mint">
-      <div className="left_mint">
+      <div className="left_mint anim-left">
         <h1>Mint a Mask</h1>
         <p>
           After connecting your MetaMask wallet You can choose the amount of
@@ -63,7 +63,7 @@ function Mint() {
           <img src={item} alt="..." />;
         </div>
       </div>
-      <div className="right_mint">
+      <div className="right_mint anim-right">
         <div className="box">
           <h2>Want a limited Edition Twin Mask?</h2>
           <p>

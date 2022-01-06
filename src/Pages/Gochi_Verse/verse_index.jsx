@@ -4,7 +4,7 @@ import "./verse_index.css";
 function Verse() {
   return (
     <div className="verse">
-      <div className="verse_right">
+      <div className="verse_right anim-left">
         <h1>Underworld Metaverse</h1>
         <h2>Ready To Dive In?</h2>
         <p>
@@ -24,7 +24,7 @@ function Verse() {
           Join Our Telegram
         </button>
       </div>
-      <div className="verse_left">
+      <div className="verse_left anim-right">
         <img src={logo} alt="" />
       </div>
     </div>

@@ -6,11 +6,11 @@ import gif from "../../Assets/rotate-logo.gif";
 function AppGochi() {
   return (
     <div className="app">
-      <div className="app_left">
+      <div className="app_left anim-left">
         <img src={phone} alt="..." />
         <img src={gif} alt="..." />
       </div>
-      <div className="app_right">
+      <div className="app_right anim-right">
         <h1>App Coming Soon</h1>
         <p>
           We are currently in the process of creating a mobile marketplace app

@@ -10,7 +10,7 @@ function Farm() {
   };
   return (
     <div className="farm">
-      <div className="farm_left">
+      <div className="farm_left anim-left">
         <h1>Stake your $FKYC tokens to earn extra rewards</h1>
 
         <div className="farm_btn-div">
@@ -22,7 +22,7 @@ function Farm() {
         <p>Your pool tokens a free Nft each week</p>
         <button className="farm-wallet connect-wallet">Connect Wallet</button>
       </div>
-      <div className="farm_right">
+      <div className="farm_right anim-right">
         <img src={logo} alt="" />
       </div>
     </div>
