@@ -32,17 +32,21 @@ function Mint() {
   return (
     <div className="mint">
       <div className="left_mint">
-        <h1>Mint an Egg</h1>
+        <h1>Mint a Mask</h1>
         <p>
-          Select the amount of Metagochi eggs you want to mint below & hit "Mint
-          My Eggs" to mint. After you mint your Metagochi eggs, you will be able
-          to name them, and wait for the live "hatching" event! After your
-          Metagochi egg hatches into a Metagochi creature, you will be able to
-          train your Metagochi using our Metagochi training games to evolve to a
-          higher level, breed Metagochi's with others, and earn rewards.
+          After connecting your MetaMask wallet You can choose the amount of
+          masks that you want to mint, choose a number then hit the “ mint
+          masks” button You will then Be able to come into this page and view
+          them any time you want by just connecting a MetaMask wallet,, On the
+          reveal date you’re lucky box rogue mask With varying rarity will be
+          visible to you The first 1000 Buyers of rogue masks Will get 2 for the
+          price of 1 For example if you choose to mint five masks, we will give
+          you another five for free which then you can sell on the open market
+          place either OpenSea or our own Rogue marketplace , I remember no mask
+          no entry to the underworld
         </p>
 
-        <p>Eggs to Mint</p>
+        <p>Masks to Mint</p>
         <div className="additon-div">
           <p onClick={decrement} className="minus">
             -
@@ -61,15 +65,15 @@ function Mint() {
       </div>
       <div className="right_mint">
         <div className="box">
-          <h2>Want a limited Edition Twin Egg?</h2>
+          <h2>Want a limited Edition Twin Mask?</h2>
           <p>
             For a limited time only we're offering all holders with more than
-            15T $MGCHI tokens limted edition twin eggs.
+            15T $MGCHI tokens limted edition twin masks.
           </p>
-          <p>Each twin egg NFT will grant you two NFT's on hatching day.</p>
+          <p>Each twin mask NFT will grant you two NFT's on hatching day.</p>
           <h2>Your Tokens:</h2>
           <p className="not_enough">
-            You don't have enough $MGCHI for a twin egg
+            You don't have enough $MGCHI for a twin mask
           </p>
           <button className="buy-more">Buy More</button>
         </div>

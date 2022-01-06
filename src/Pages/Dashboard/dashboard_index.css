@@ -7,11 +7,9 @@
   text-align: left;
   padding: 0rem 2.5rem;
 }
-.dashboard_left {
-  flex: 0.6;
-}
+.dashboard_left,
 .dashboard_right {
-  flex: 0.4;
+  flex: 0.5;
 }
 .dashboard h1 {
   color: #ff0000;
@@ -39,6 +37,10 @@
   .dashboard {
     flex-direction: column;
     padding-top: 3rem;
+    padding-inline: 3.5rem;
+  }
+  .dashboard_text {
+    font-size: 1.1rem;
   }
   .dashboard_logo {
     max-width: 40%;
@@ -54,6 +56,12 @@
   }
 }
 @media screen and (max-width: 500px) {
+  .dashboard {
+    padding-inline: 1.5rem;
+  }
+  .dashboard_text {
+    text-align: center;
+  }
   .dashboard_logo {
     max-width: 90%;
   }

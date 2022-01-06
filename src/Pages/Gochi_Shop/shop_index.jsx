@@ -8,16 +8,16 @@ function Shop() {
         <img src={logo} alt="" />
       </div>
       <div className="shop_right">
-        <h2>HATCH, TRAIN, EARN</h2>
-        <h1>MetaGochi Shop</h1>
+        <h1>ROGUE MARKETPLACE </h1>
         <p>
-          Our Market Place will allow you to sell your trained MetaGochis to
-          others, or buy already trained MetaGochis to use in the MetaGochi
-          Games and earn $MGCHI rewards.
+          Our online NFT marketplace will allow the sales and buying of rogue
+          masks and Ingame utilities
         </p>
         <p>
-          To be the first to find out when the MetaGotch store will launch join
-          our telegram group.
+          As mass adoption from the non-crypto population stream in through the
+          app anyone miss surplus masks can take bits start to raise the price
+          of their Nfts to sell To people desperate to be 1 of the 100,000 only
+          Underworld meta verse inhabitants
         </p>
         <button className="join-tele">
           <i className="fab fa-telegram"></i>

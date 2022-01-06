@@ -3,16 +3,17 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: black;
+  background-color: #28272c;
   color: white;
   height: 100vh;
   flex: 0.2;
   position: fixed;
   padding-top: 2.5rem;
   max-width: 20%;
+  padding-left: 20px;
 }
 .logo {
-  max-width: 90%;
+  max-width: 80%;
   object-fit: contain;
 }
 .nav-text {
@@ -23,8 +24,9 @@
   margin-left: 20px;
   color: white;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   padding: 20px 0px;
+  text-transform: uppercase;
 }
 .nav-text i {
   margin-right: 30px;
@@ -45,9 +47,10 @@
   .sidebar {
     position: absolute;
     left: -100%;
-    max-width: 30%;
+    max-width: 40%;
     transition: all 0.25s ease-in-out;
     opacity: 0;
+    z-index: 5;
   }
   .open {
     left: 0;
@@ -70,11 +73,11 @@
 }
 @media screen and (max-width: 785px) {
   .sidebar {
-    max-width: 45%;
+    max-width: 65%;
   }
 }
 @media screen and (max-width: 467px) {
   .sidebar {
-    max-width: 70%;
+    max-width: 75%;
   }
 }

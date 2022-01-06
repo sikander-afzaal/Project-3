@@ -44,7 +44,7 @@
   width: 80%;
 }
 .app_img {
-  max-width: 40%;
+  max-width: 50%;
   object-fit: contain;
 }
 @media screen and (max-width: 1035px) {

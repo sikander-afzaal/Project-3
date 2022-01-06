@@ -41,10 +41,13 @@
   padding: 12px 20px;
 }
 .item_div {
-  width: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .item_div img {
-  max-width: 100%;
+  max-width: 40%;
   object-fit: contain;
 }
 .right_mint {
@@ -98,6 +101,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .left_mint {
     text-align: center;

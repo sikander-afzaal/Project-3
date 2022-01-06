@@ -1,13 +1,20 @@
-import React from 'react'
-import "./gochi_index.css"
+import React from "react";
+import "./gochi_index.css";
 function Gochi() {
-    return (
-        <div className='gochi'>
-       <h1>Your MetaGochi Eggs are safe in our incubator</h1>
-       <p>Your eggs will be ready to hatch soon, join our <span><a href="#..">telegram group here</a></span> so you don't miss hatching day.</p>
-        <button className='gochi_connect connect-wallet'>Please authenticate your ethereum address</button>
-        </div>
-    )
+  return (
+    <div className="gochi">
+      <h1>MY MASKS AND UTILITIES </h1>
+      <p>
+        All you need to do is connect your MetaMask to see your masks or any NFT
+        drops that of landed to you on this page, check in the telegram group to
+        keep an eye on the updated reveal date
+      </p>
+      <button className="gochi_connect connect-wallet">
+        Press this button to refresh to check for your masks if they don’t
+        immediately appear
+      </button>
+    </div>
+  );
 }
 
-export default Gochi
+export default Gochi;

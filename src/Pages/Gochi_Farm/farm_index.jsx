@@ -11,21 +11,15 @@ function Farm() {
   return (
     <div className="farm">
       <div className="farm_left">
-        <h1>$MGCHI Farm Token Staking</h1>
-        <p>
-          Stake your $MGCHI to earn Metagochi eggs that hatch into Metagochi
-          creatures that you can train, breed, and earn rewards with by winning
-          our GochiGames.
-        </p>
-        <p>
-          New to staking? Check out our FAQ's section here to find out more.
-        </p>
+        <h1>Stake your $FKYC tokens to earn extra rewards</h1>
+
         <div className="farm_btn-div">
-          <button onClick={clickHandler}>Stake $MGCHI</button>
+          <button onClick={clickHandler}>$FKYC staking</button>
           <button onClick={clickHandler} className="button-opacity">
-            Stake LP (Double Rewards)
+            POOL STAKING
           </button>
         </div>
+        <p>Your pool tokens a free Nft each week</p>
         <button className="farm-wallet connect-wallet">Connect Wallet</button>
       </div>
       <div className="farm_right">

@@ -5,7 +5,7 @@ function Verse() {
   return (
     <div className="verse">
       <div className="verse_right">
-        <h1>The Metagochi Metaverse</h1>
+        <h1>Underworld Metaverse</h1>
         <h2>Ready To Dive In?</h2>
         <p>
           The concept for the Metaverse may change as we progress through
