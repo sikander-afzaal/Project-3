@@ -90,7 +90,7 @@
     width: 73%;
   }
 }
-@media screen and (max-width: 1123px) {
+@media screen and (max-width: 1317px) {
   .right {
     flex: none;
     width: 100vw;

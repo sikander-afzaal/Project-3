@@ -37,7 +37,7 @@
   background-image: linear-gradient(170deg, #ff0000 0%, #9762af 77%);
   border-radius: 10px;
 }
-@media screen and (max-width: 1123px) {
+@media screen and (max-width: 1317px) {
   .fa-bars {
     font-size: 1.4rem;
     color: white;
