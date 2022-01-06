@@ -10,6 +10,8 @@ function Sidebar() {
   };
   const activeHandler = (e) => {
     const active = document.querySelector(".active-link");
+    const sidebar = document.querySelector(".sidebar");
+    sidebar.classList.remove("open");
     active.classList.remove("active-link");
     e.target.classList.add("active-link");
   };
