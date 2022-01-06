@@ -19,7 +19,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: auto;
   margin-left: 20px;
   color: white;
   text-decoration: none;
