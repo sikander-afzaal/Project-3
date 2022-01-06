@@ -100,6 +100,9 @@
   .sidebar {
     max-width: 75%;
   }
+  .nav-text {
+    font-size: 1rem;
+  }
 }
 @media screen and (max-width: 410px) {
   .sidebar {
