@@ -2,6 +2,21 @@ import React, { useState } from "react";
 import "./mint_index.css";
 import item from "../../Assets/small-logo.png";
 function Mint() {
+  const [array, setArray] = useState([]);
+  const clickHandlerMinus = (e) => {
+    if (array.length <= 50 && array.length >= 0) {
+      const copy = [...array];
+      copy.splice(0, 1);
+      setArray(copy);
+    }
+  };
+  const clickHandlerPlus = (e) => {
+    if (array.length <= 49 && array.length >= 0) {
+      setArray((prev) => {
+        return [...prev, prev.length + 1];
+      });
+    }
+  };
   return (
     <div className="mint">
       <div className="left_mint anim-left">
@@ -22,9 +37,13 @@ function Mint() {
         <p>Masks to Mint</p>
         <div className="additon-div">
           <div className="calc">
-            <p className="minus">-</p>
-            <p className="number">1</p>
-            <p className="plus">+</p>
+            <p onClick={clickHandlerMinus} className="minus">
+              -
+            </p>
+            <p className="number">{array.length}</p>
+            <p onClick={clickHandlerPlus} className="plus">
+              +
+            </p>
           </div>
 
           <button className="mint_connect connect-wallet">
@@ -32,15 +51,11 @@ function Mint() {
           </button>
         </div>
         <div className="item_div">
-          <img src={item} alt="..." />;
-          <img src={item} alt="..." />;
-          <img src={item} alt="..." />;
-          <img src={item} alt="..." />;
-          <img src={item} alt="..." />;
-          <img src={item} alt="..." />;
-          <img src={item} alt="..." />;
-          <img src={item} alt="..." />;
-          <img src={item} alt="..." />;
+          {array.map((elem, index) => {
+            return (
+              <img className="anim-left" key={index} src={item} alt="..." />
+            );
+          })}
         </div>
       </div>
       <div className="right_mint anim-right">
