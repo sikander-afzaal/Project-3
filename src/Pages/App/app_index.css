@@ -68,7 +68,7 @@
     flex-direction: column;
     text-align: center;
     gap: 2rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
   .app_left img:first-child {
     max-width: 70%;
@@ -90,8 +90,10 @@
   }
   .app_right p {
     font-size: 1.1rem;
+    text-align: justify;
+    width: 88%;
   }
   .app_img {
-    max-width: 60%;
+    max-width: 80%;
   }
 }

@@ -43,7 +43,7 @@
 @media screen and (max-width: 1045px) {
   .dashboard {
     flex-direction: column;
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-inline: 3.5rem;
   }
   .dashboard_left,
@@ -78,5 +78,6 @@
   }
   .dashboard h1 {
     text-align: center;
+    font-size: 2.5rem;
   }
 }

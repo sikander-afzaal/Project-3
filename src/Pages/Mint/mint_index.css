@@ -177,15 +177,16 @@
   }
 }
 @media screen and (max-width: 550px) {
+  .left_mint {
+    padding: 0rem 0rem;
+    text-align: justify;
+  }
   .additon-div {
     flex-direction: column;
     gap: 3rem;
   }
 }
 @media screen and (max-width: 473px) {
-  .left_mint {
-    padding: 0rem 0.5rem;
-  }
   .item_div {
     width: 100%;
   }

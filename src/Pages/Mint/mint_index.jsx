@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./mint_index.css";
 import item from "../../Assets/small-logo.png";
 function Mint() {
-  const [array, setArray] = useState([]);
+  const [array, setArray] = useState([1]);
   const clickHandlerMinus = (e) => {
     if (array.length <= 50 && array.length >= 0) {
       const copy = [...array];

@@ -39,15 +39,18 @@
 }
 @media screen and (max-width: 493px) {
   .gochi {
-    padding: 0rem 2rem;
+    padding: 0rem 0rem;
+    padding-top: 2rem;
+    height: auto;
   }
   .gochi h1 {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
   }
   .gochi p {
     font-size: 1rem;
   }
   .gochi_connect {
+    margin-inline: 2rem;
     padding: 14px 30px;
   }
 }
