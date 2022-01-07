@@ -14,8 +14,8 @@ function AppGochi() {
         <h1 className="anim-up">App Coming Soon</h1>
         <p style={{ animationDelay: "0.3s" }} className="anim-right">
           We are currently in the process of creating a mobile marketplace app
-          where non-crypto currency uses have the chance to invest into the game
-          via rogue masks through our crypto/Fiat gateway
+          where non-crypto currency have the chance to invest into the game via
+          rogue masks through our crypto/Fiat gateway
         </p>
         <p style={{ animationDelay: "0.3s" }} className="anim-right">
           The release of this on Google play and App Store Will create a big

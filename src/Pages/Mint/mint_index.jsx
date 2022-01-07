@@ -64,11 +64,12 @@ function Mint() {
           <p>connect to uni swap To Buy $FKYC Tokens,</p>
           <p>
             dependent on your size of token holdings will depend on the level of
-            utility pack you get later in our free “Rogue unities airdrop”
+            utility pack you get later in our free “Rogue utilities airdrop”
           </p>
           <h2>Your Tokens:</h2>
           <p className="not_enough">
-            You don't have enough $FKYC for a twin mask
+            Increase your holdings of $FKYC tokens To qualify for utility drops
+            further into our roadmap
           </p>
           <button className="buy-more">Buy More</button>
         </div>

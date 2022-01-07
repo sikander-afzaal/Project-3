@@ -36,11 +36,12 @@ function Dashboard() {
           style={{ animationDelay: "0.5s" }}
           className="dashboard_text anim-up"
         >
-          you can purchase multiple masks which all vary in rarity and therefore
-          are worth on opensea and other marketplaces including our own that
-          will also be in dashboard crypto / fiat bridge which allows the non
-          crypto late adopters a chance to buy in and pay you handsomely for
-          your spare masks just to be able to enter this crazy underworld{" "}
+          you can purchase multiple masks which all vary in rarity that are
+          worth” more “ on opensea And other market places Including our own
+          which will be on the dashboard. We are also creating a crypto/fiat
+          bridge. <br></br> which allows the non crypto late adopters a chance
+          to buy in and pay you handsomely for your spare masks just to be able
+          to enter this crazy underworld{" "}
         </p>
         <p
           style={{ animationDelay: "0.55s" }}
