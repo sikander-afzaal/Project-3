@@ -29,9 +29,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 50%;
+  width: 90%;
 }
-.additon-div p {
+.calc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.calc p {
   font-size: 3rem;
 }
 .plus,
@@ -41,15 +47,20 @@
 }
 .mint_connect {
   padding: 12px 20px;
+  display: block !important;
 }
 .item_div {
   width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  height: 190px;
+  margin-top: 2rem;
 }
 .item_div img {
-  max-width: 40%;
+  max-width: 10%;
   object-fit: contain;
 }
 .right_mint {
@@ -98,6 +109,11 @@
   border-radius: 10px;
   font-size: 1.2rem;
   cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+.buy-more:hover {
+  transform: scale(0.9);
+  opacity: 0.7;
 }
 @media screen and (max-width: 1390px) {
   .mint {
@@ -121,6 +137,9 @@
   .box {
     align-items: center;
     text-align: center;
+  }
+  .item_div img {
+    max-width: 7%;
   }
 }
 @media screen and (max-width: 620px) {
@@ -147,8 +166,14 @@
     width: 90%;
   }
   .item_div img {
-    max-width: 80%;
+    max-width: 20%;
     object-fit: contain;
+  }
+}
+@media screen and (max-width: 550px) {
+  .additon-div {
+    flex-direction: column;
+    gap: 3rem;
   }
 }
 @media screen and (max-width: 473px) {

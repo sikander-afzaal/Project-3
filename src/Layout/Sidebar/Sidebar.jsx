@@ -35,18 +35,36 @@ function Sidebar() {
         <i className="fas fa-mobile"></i>
         Mobile app
       </Link>
-      <Link onClick={activeHandler} to="/farm" className="nav-text">
+      <Link onClick={activeHandler} to="/farm" className="nav-text disabled">
         <i className="fas fa-skull-crossbones"></i>
         Rogue staking
       </Link>
-      <Link onClick={activeHandler} to="/shop" className="nav-text">
+      <Link onClick={activeHandler} to="/shop" className="nav-text disabled">
         <i className="fas fa-store-alt"></i>
         Rogue marketplace
       </Link>
-      <Link onClick={activeHandler} to="/verse" className="nav-text">
+      <Link onClick={activeHandler} to="/verse" className="nav-text disabled">
         <i className="fas fa-meteor"></i>
         Underworld metaverse
       </Link>
+      <div className="bottom-sidebar mobile-sidebar">
+        <a href="...." className="top-text">
+          <i className="fab fa-twitter"></i>
+          Twitter
+        </a>
+        <a href="...." className="top-text">
+          <i className="fab fa-telegram"></i>
+          Telegram
+        </a>
+        <a href="...." className="top-text">
+          <i className="fas fa-globe"></i>
+          Website
+        </a>
+        <a href="...." className="top-text">
+          <i className="fas fa-sticky-note"></i>
+          WhitePaper
+        </a>
+      </div>
     </div>
   );
 }
