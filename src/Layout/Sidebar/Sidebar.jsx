@@ -2,7 +2,7 @@ import React from "react";
 import "./Sidebar.css";
 import logo from "../../Assets/logo.png";
 // react router-----
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 function Sidebar() {
   const clickHandler = (e) => {
     const sidebar = document.querySelector(".sidebar");
@@ -48,19 +48,27 @@ function Sidebar() {
         Underworld metaverse
       </Link>
       <div className="bottom-sidebar mobile-sidebar">
-        <a href="...." className="top-text">
+        <a
+          target="_blank"
+          href="https://twitter.com/gonerogue_io"
+          className="top-text"
+        >
           <i className="fab fa-twitter"></i>
           Twitter
         </a>
-        <a href="...." className="top-text">
+        <a
+          target="_blank"
+          href="https://t.me/+Da7cFG4nEU4yZTVk"
+          className="top-text"
+        >
           <i className="fab fa-telegram"></i>
           Telegram
         </a>
-        <a href="...." className="top-text">
+        <a target="_blank" href="...." className="top-text">
           <i className="fas fa-globe"></i>
           Website
         </a>
-        <a href="...." className="top-text">
+        <a target="_blank" href="...." className="top-text">
           <i className="fas fa-sticky-note"></i>
           WhitePaper
         </a>
