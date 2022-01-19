@@ -23,7 +23,7 @@ function Sidebar() {
         <i className="fas fa-home"></i>
         Dashboard
       </Link>
-      <Link onClick={activeHandler} to="/mint" className="nav-text">
+      <Link onClick={activeHandler} to="/mint" className="nav-text ">
         <i className="fas fa-theater-masks"></i>
         Mint your masks
       </Link>
@@ -31,17 +31,22 @@ function Sidebar() {
         <i className="fas fa-mask"></i>
         My masks and utilities
       </Link>
-      <Link onClick={activeHandler} to="/app" className="nav-text">
-        <i className="fas fa-mobile"></i>
-        Mobile app
-      </Link>
-      <Link onClick={activeHandler} to="/farm" className="nav-text disabled">
+
+      <Link
+        onClick={activeHandler}
+        to="/farm"
+        className="nav-text disabled link-abs"
+      >
         <i className="fas fa-skull-crossbones"></i>
-        Rogue staking
+        Rogue staking <span className="fifty">5100% APY</span>
       </Link>
       <Link onClick={activeHandler} to="/shop" className="nav-text disabled">
         <i className="fas fa-store-alt"></i>
         Rogue marketplace
+      </Link>
+      <Link onClick={activeHandler} to="/app" className="nav-text disabled">
+        <i className="fas fa-mobile"></i>
+        Mobile app
       </Link>
       <Link onClick={activeHandler} to="/verse" className="nav-text disabled">
         <i className="fas fa-meteor"></i>

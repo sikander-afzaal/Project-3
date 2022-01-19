@@ -11,7 +11,7 @@
   height: 100vh;
   flex: 0.2;
   position: fixed;
-  padding-top: 2.5rem;
+  padding-top: 1.5rem;
   max-width: 20%;
   overflow-x: visible !important;
   width: 100%;
@@ -37,6 +37,20 @@
   transition: all 0.25s ease-in-out;
   position: relative;
 }
+.link-abs {
+  position: relative;
+}
+.fifty {
+  position: absolute;
+  right: -47%;
+  font-size: 0.9rem;
+  border: 1px solid white;
+  background-color: transparent;
+  background-image: linear-gradient(170deg, #ff0000 0%, #9762af 77%);
+  padding: 10px 2px;
+  font-weight: 500;
+  color: white;
+}
 .nav-text::after {
   content: "";
   width: 0%;
@@ -51,7 +65,7 @@
 }
 .active-link {
   background-color: #37363b;
-  padding-inline: 10px;
+  padding-inline: 5px;
 }
 .active-link::after {
   height: 0px;
@@ -88,6 +102,9 @@
 @media screen and (max-width: 1525px) {
   .sidebar {
     max-width: 27%;
+  }
+  .fifty {
+    right: -47%;
   }
 }
 @media screen and (max-width: 1317px) {
@@ -140,7 +157,7 @@
     width: max-content;
   }
 }
-@media screen and (max-width: 467px) {
+@media screen and (max-width: 500px) {
   .sidebar {
     max-width: 75%;
   }

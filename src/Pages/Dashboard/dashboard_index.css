@@ -2,10 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
   width: 100%;
   text-align: left;
   padding: 0rem 2.5rem;
+  height: 100vh;
+  padding-top: 8rem;
+  height: auto;
 }
 .dashboard_left,
 .dashboard_right {
@@ -14,6 +16,10 @@
 .dashboard_right {
   transform: translate(6rem);
   opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
 }
 .dashboard h1 {
   opacity: 0;
@@ -35,10 +41,10 @@
 }
 .dashboard_logo {
   opacity: 0;
-  max-width: 60%;
+  max-width: 75%;
 }
 .gif {
-  max-width: 100%;
+  max-width: 145%;
 }
 @media screen and (max-width: 1045px) {
   .dashboard {
@@ -48,7 +54,11 @@
   }
   .dashboard_left,
   .dashboard_right {
-    flex: none;
+    flex: auto;
+    height: auto;
+  }
+  .gif {
+    max-width: 100%;
   }
   .dashboard_text {
     font-size: 1.1rem;

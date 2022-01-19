@@ -1,6 +1,6 @@
 import React from "react";
 import "./Top-bar.css";
-function Topbar() {
+function Topbar({ show }) {
   const clickHandler = (e) => {
     const sidebar = document.querySelector(".sidebar");
     sidebar.classList.add("open");
@@ -34,7 +34,13 @@ function Topbar() {
           WhitePaper
         </a>
       </div>
-      <button className="connect-wallet">Connect Wallet</button>
+      {show ? (
+        <button className="connect-wallet">
+          CONNECT <br></br> (Refresh to Update)
+        </button>
+      ) : (
+        ""
+      )}
     </div>
   );
 }

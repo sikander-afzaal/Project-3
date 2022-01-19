@@ -1,8 +1,11 @@
-import React from "react";
-import gif from "../../Assets/rotate-logo.gif";
+import React, { useEffect } from "react";
+import gif from "../../Assets/Flipping-Masks.gif";
 import logo from "../../Assets/logo.png";
 import "./dashboard_index.css";
-function Dashboard() {
+function Dashboard({ func2 }) {
+  useEffect(() => {
+    return func2(true);
+  }, [func2]);
   return (
     <div className="dashboard">
       <div className="dashboard_left">
@@ -19,15 +22,9 @@ function Dashboard() {
           Minting a rogue mask NFT is the only way to enter into this
           underworld, there will only be 100,000 unique masks worldwide each of
           which will grow in value as the game gains in popularity and they are
-          resold on the open market place The mask logs your players progress
-          and in game earnings
-        </p>
-        <p
-          style={{ animationDelay: "0.3s" }}
-          className="dashboard_text anim-up"
-        >
-          1 x mask can be your in game avatar for your character to wear as you
-          navigate the metaverse
+          resold on the open market place . The mask logs your players progress
+          and in game earnings. 1 x mask can be your in game avatar for your
+          character to wear as you navigate the metaverse.
         </p>
         <h1 style={{ animationDelay: "0.4s" }} className="but anim-left">
           BUT
@@ -36,19 +33,12 @@ function Dashboard() {
           style={{ animationDelay: "0.5s" }}
           className="dashboard_text anim-up"
         >
-          you can purchase multiple masks which all vary in rarity that are
-          worth” more “ on opensea And other market places Including our own
-          which will be on the dashboard. We are also creating a crypto/fiat
-          bridge. <br></br> which allows the non crypto late adopters a chance
-          to buy in and pay you handsomely for your spare masks just to be able
-          to enter this crazy underworld{" "}
-        </p>
-        <p
-          style={{ animationDelay: "0.55s" }}
-          className="dashboard_text anim-up"
-        >
-          The first 1000 buyers get a free mask for everyone they buy, we will
-          match it
+          You can purchase multiple masks Up to 10 in fact, which you can then
+          use to earn yourself a whopping 5100% APY If you choose to stake them.
+          Obviously this will increase the speed in which the masks are minted ,
+          as for every mask you mint and hold for seven days you receive another
+          one at no extra cost , just the gas fee of approx 2usd per nft Needs
+          to be available in your wallet.
         </p>
         <h1 style={{ animationDelay: "0.75s" }} className="nft_drop anim-left">
           FREE NFT AIRDROP
@@ -57,19 +47,7 @@ function Dashboard() {
           style={{ animationDelay: "0.8s" }}
           className="dashboard_text anim-up"
         >
-          TO BE ANOUNCED AT A LATER DATE THERE WILL BE REGULAR NFT AIRDROPS ,and
-          when the air drop hdashboardens you simply connect your metamask
-          wallet and dependant on your $FKYC holdings, if they surpass a pre
-          decided amount will determine if you get that free nft sent to your
-          wallet{" "}
-        </p>
-        <p
-          style={{ animationDelay: "0.85s" }}
-          className="dashboard_text anim-up"
-        >
-          {" "}
-          All NFTs dropped will go into your in game "Rogue utility package" To
-          give you an edge towards conquering The underworld.
+          TO BE ANOUNCED AT A LATER DATE THERE WILL BE REGULAR NFT AIRDROPS.
         </p>
       </div>
       <div className="dashboard_right anim-right">

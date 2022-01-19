@@ -1,13 +1,14 @@
 .topbar * {
-  overflow-x: visible;
+  overflow: visible;
 }
 .topbar {
   display: flex;
   width: 100%;
-  height: 10vh;
+  height: auto;
   justify-content: space-between;
-  padding: 0rem 2rem;
+  padding: 2rem 2rem;
   align-items: center;
+  overflow: visible;
 }
 .left_topbar {
   display: flex;
@@ -42,7 +43,7 @@
 }
 .connect-wallet {
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   padding: 11px 30px;
   color: white;
   border: 1px solid white;
@@ -50,6 +51,7 @@
   background-image: linear-gradient(170deg, #ff0000 0%, #9762af 77%);
   border-radius: 10px;
   transition: all 0.25s ease-in-out;
+  margin-right: 12rem;
 }
 .connect-wallet:hover {
   transform: scale(0.9);
@@ -60,6 +62,11 @@
     font-size: 1.4rem;
     color: white;
     cursor: pointer;
+  }
+}
+@media screen and (max-width: 996px) {
+  .connect-wallet {
+    margin-right: 0rem;
   }
 }
 @media screen and (max-width: 785px) {

@@ -17,6 +17,9 @@
   gap: 20px;
   overflow: visible;
 }
+.util2 img {
+  max-width: 20%;
+}
 .farm_left h1 {
   color: white;
   font-size: 3rem;
@@ -46,9 +49,36 @@
   height: 50px;
   cursor: pointer;
   font-size: 1rem;
+  opacity: 0.5;
+  transform: scale(0.8);
+  transition: all 0.25s ease-in-out;
 }
 .button-opacity {
-  opacity: 0.5;
+  opacity: 1 !important;
+  transform: scale(1) !important;
+  position: relative;
+}
+.button-opacity::after {
+  content: "";
+  width: 4px;
+  height: 67%;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 88%;
+  top: 10%;
+  z-index: 4;
+  background: black;
+}
+.button-opacity::before {
+  content: "";
+  width: 4px;
+  height: 32%;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 82%;
+  top: 44%;
+  z-index: 4;
+  background: black;
 }
 .farm-wallet {
   border-radius: 30px;
@@ -60,7 +90,7 @@
   opacity: 0;
 }
 .farm_right img {
-  max-width: 100%;
+  max-width: 120%;
   object-fit: contain;
 }
 @media screen and (max-width: 1017px) {
@@ -76,6 +106,11 @@
   .farm_left {
     flex: none;
   }
+  .farm_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media screen and (max-width: 553px) {
   .farm_left h1 {
@@ -84,7 +119,17 @@
   .farm_left p {
     font-size: 1.1rem;
   }
+  .farm_btn-div {
+    flex-direction: column;
+    width: 90%;
+  }
   .farm_btn-div button {
-    width: 160px;
+    width: 100%;
+  }
+  .button-opacity::before {
+    left: 84%;
+  }
+  .util2 img {
+    max-width: 30%;
   }
 }
