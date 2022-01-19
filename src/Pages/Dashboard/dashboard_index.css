@@ -6,7 +6,7 @@
   text-align: left;
   padding: 0rem 2.5rem;
   height: 100vh;
-  padding-top: 8rem;
+  padding-top: 2rem;
   height: auto;
 }
 .dashboard_left,
@@ -45,6 +45,13 @@
 }
 .gif {
   max-width: 145%;
+}
+@media screen and (max-width: 1054px) {
+  .dashboard {
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-inline: 3.5rem;
+  }
 }
 @media screen and (max-width: 1045px) {
   .dashboard {

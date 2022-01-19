@@ -6,7 +6,7 @@
   position: absolute;
   width: 40vw;
   height: auto;
-  min-height: 40vh;
+  min-height: 60vh;
   background-color: #2c2b30;
   left: 50%;
   top: 50%;
@@ -15,7 +15,7 @@
   gap: 20px;
   border-radius: 15px;
   top: -1000%;
-  transition: all 0.65s ease-in-out;
+  /* transition: all 0.65s ease-in-out; */
   transition-delay: 0.25s;
 }
 .overlay {
@@ -47,10 +47,45 @@
   top: 5%;
   right: 5%;
   cursor: pointer;
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  border-radius: 0px;
 }
 .open-pop {
   top: 50%;
 }
 .open-pop-ov {
   top: 0;
+}
+@media screen and (max-width: 1586px) {
+  .pop {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 724px) {
+  .pop {
+    width: 90vw;
+  }
+  .pop img {
+    max-width: 70%;
+  }
+  .pop h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 465px) {
+  .pop {
+    width: 90vw;
+    text-align: center;
+  }
+  .pop img {
+    max-width: 90%;
+  }
+  .pop h1 {
+    font-size: 1.5rem;
+  }
+  .pop p {
+    font-size: 1.2rem;
+  }
 }
